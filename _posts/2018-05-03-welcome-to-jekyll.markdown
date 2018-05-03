@@ -34,6 +34,18 @@ of external APIs etc. It's completely up to you.
 
 All the ideas here are just some suggestions to get your own creativity going. 😊
 
+## Check & extend the documentation
+![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg)
+The *Personal Data Notebooks* have been released only 3 weeks ago. As a consequence
+the documentation is still rather new and not well tested. There are some ways you can
+test and extend the documentation:
+
+- [Follow the getting started guide](http://openhumansfoundation.org/ohjh-example-notebooks/) for
+the notebooks and see whether anything is missing. If things are missing or unclear you can
+[propose changes to the README.md](https://github.com/OpenHumans/ohjh-example-notebooks/blob/gh-pages/README.md)
+- [Each of the example notebooks](https://github.com/OpenHumans/ohjh-example-notebooks) comes with inline comments
+about what is done and more or less how it works. Are these useful and correct? If not you can edit them in your own notebook instance, download the fixed notebook and make a pull request.
+
 ## Extend existing notebooks
 ![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg) -
 ![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg)
@@ -111,4 +123,4 @@ These data are a bit harder to analyse, especially if you don't have a backgroun
 With the exception of *uBiome* all of these data sources contain genetic variants called *SNPs* (single nucleotide polymorphisms).
 One way to explore these variants would be to use an external API such as [http://myvariant.info/](http://myvariant.info/) to
 annotate them with metadata. Metadata could be variant frequencies in different populations, whether variants are coding or not.
-Alternatively you could try to use databases to predict phenotypic information such as hair or eye colour. 
+Alternatively you could try to use databases to predict phenotypic information such as hair or eye colour.
