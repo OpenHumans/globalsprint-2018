@@ -34,6 +34,15 @@ of external APIs etc. It's completely up to you.
 
 All the ideas here are just some suggestions to get your own creativity going. 😊
 
+## Ways to contribute
+
+- [Check & extend the documentation](#check--extend-the-documentation)
+- [Extend existing notebooks](#extend-existing-notebooks)
+- [Write notebooks for other data sources](#write-notebooks-for-other-data-sources)
+  * [Writing notebook that explore Runkeeper](#writing-notebook-that-explore-runkeeper)
+  * [Writing notebook that explore Moves](#writing-notebook-that-explore-moves)
+  * [Writing notebooks that explore genetic data](#writing-notebooks-that-explore-genetic-data)
+
 ## Check & extend the documentation
 ![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg)
 The *Personal Data Notebooks* have been released only 3 weeks ago. As a consequence
@@ -66,7 +75,7 @@ please go ahead. Some potential ideas:
   - Is there a clear correlation between elevation gains/flights climbed and step counts?
   - Is there a linear relationship between the distances in miles/kilometer and the step counts?
 
-
+## Write notebooks for other data sources
 
 ### Writing notebook that explore Runkeeper
 ![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg) -
