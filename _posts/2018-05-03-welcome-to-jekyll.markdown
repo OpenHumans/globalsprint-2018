@@ -32,25 +32,83 @@ It could *"just"* be plotting some of the data that people have in their Open Hu
 accounts. Or it could be a more complex task that correlates data sources, makes use
 of external APIs etc. It's completely up to you.
 
+All the ideas here are just some suggestions to get your own creativity going. 😊
+
+## Extend existing notebooks
+![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg) -
+![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg)
+![](https://img.shields.io/badge/language-Python-blue.svg)
+![](https://img.shields.io/badge/language-R-blue.svg)
+
+Our [existing notebooks](https://github.com/OpenHumans/ohjh-example-notebooks) explore
+data from **Fitbit**, **Apple Healthkit** and **Twitter archives**. Some of these analyses are rather basic
+at this point.
+
+If you have an interest in extending these notebooks - or are inspired to write your own analyses for these data types -
+please go ahead. Some potential ideas:
+
+- Extend the Twitter sentiment analysis to:
+  - Which emoji are most often used with the top-people a person replies to?
+  - Are there changes in tweets between weekdays & weekends?
+- Extend Fitbit/HealthKit:
+  - Is there a clear correlation between elevation gains/flights climbed and step counts?
+  - Is there a linear relationship between the distances in miles/kilometer and the step counts?
 
 
-## Write a notebook that explores Runkeeper
+
+### Writing notebook that explore Runkeeper
 ![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg) -
 ![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg)
 ![](https://img.shields.io/badge/language-Python-blue.svg)
 ![](https://img.shields.io/badge/language-R-blue.svg)
 ![](https://img.shields.io/badge/language-Julia-blue.svg)
 
-## Write a notebook that explores Moves
+*Runkeeper* allows people to track their runs and workouts - along with GPS
+information. Right now around 200 people have connected their *Runkeeper*
+accounts to Open Humans ([see some of the public data sets here](https://www.openhumans.org/api/public-data/?source=direct-sharing-140)).
+
+Here are some ideas for notebooks that use Runkeeper data:
+- Basic ideas:
+  - generate basic statistics of the data (yearly distance run? Minutes spent working out)
+  - visualize the GPS tracks so that people can "re-run" their experiences (`ggplot2` for `R` makes this rather easy, but any other language works too!)
+  - advanced: Use the GPS data to get weather information from some 3rd party API and try to correlate if the workout frequency etc. is tied to the weather
+
+### Writing notebook that explore Moves
 ![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg) -
 ![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg)
 ![](https://img.shields.io/badge/language-Python-blue.svg)
 ![](https://img.shields.io/badge/language-R-blue.svg)
 ![](https://img.shields.io/badge/language-Julia-blue.svg)
 
-## Write a notebook that explores Runkeeper
-![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg) -
-![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg)
+*Moves* is a passive GPS application for *iOS* and *Android* that records you movement history.
+Besides logging your location it will also try to classify your mode of transportation.
+Around 100 people have already connected their Moves accounts to Open Humans and we have
+[some public data sets as well](https://www.openhumans.org/api/public-data/?source=direct-sharing-138).
+
+Some ideas for notebooks that use Moves data:
+- Visualize the movement patterns over time (`ggplot2` for `R` makes this rather easy, but any other language works too!)
+- Analyze as a time series:
+  - Do certain movement types (driving a car, public transport, walking, …) fluctuate over time?
+  - Are there seasonal changes to these modes of movement? Differences between weekday/weekends?
+- advanced: Use the GPS data to get weather information from some 3rd party API and try to correlate if the workout frequency etc. is tied to the weather
+
+### Writing notebooks that explore genetic data
+![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg) -
+![](https://img.shields.io/badge/difficulty-hard-red.svg)
 ![](https://img.shields.io/badge/language-Python-blue.svg)
 ![](https://img.shields.io/badge/language-R-blue.svg)
 ![](https://img.shields.io/badge/language-Julia-blue.svg)
+
+Open Humans hosts genetic data from a variety of sources:
+- [23andMe](https://www.openhumans.org/activity/23andme-upload/)
+- [AncestryDNA](https://www.openhumans.org/activity/ancestrydna-upload/)
+- [Gencove](https://www.openhumans.org/activity/gencove/)
+- [Generic VCF data](https://www.openhumans.org/activity/genomeexome-upload/)
+- [FamilyTreeDNA](https://www.openhumans.org/activity/familytreedna-integration/)
+- [uBiome microbiome data](https://www.openhumans.org/activity/ubiome-upload/)
+
+These data are a bit harder to analyse, especially if you don't have a background in biology/bioinformatics.
+With the exception of *uBiome* all of these data sources contain genetic variants called *SNPs* (single nucleotide polymorphisms).
+One way to explore these variants would be to use an external API such as [http://myvariant.info/](http://myvariant.info/) to
+annotate them with metadata. Metadata could be variant frequencies in different populations, whether variants are coding or not.
+Alternatively you could try to use databases to predict phenotypic information such as hair or eye colour. 
