@@ -4,12 +4,12 @@ title:  "Personal Data Notebooks"
 date:   2018-05-03 10:36:41 -0700
 categories: jekyll update
 ---
-![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg) -
-![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg)
-![](https://img.shields.io/badge/language-Python-blue.svg)
-![](https://img.shields.io/badge/language-R-blue.svg)
-![](https://img.shields.io/badge/language-Julia-blue.svg)
-![](https://img.shields.io/badge/other-Documentation-blue.svg)
+![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg?longCache=true&style=flat) -
+![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-Python-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-R-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-Julia-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/other-Documentation-blue.svg?longCache=true&style=flat)
 <br/>
 Open Humans runs it's own *JupyterHub* setup which allows people to explore their
 personal data in notebooks written in *Python*, *R* and *Julia*. We are looking for
@@ -44,7 +44,7 @@ All the ideas here are just some suggestions to get your own creativity going. ð
   * [Writing notebooks that explore genetic data](#writing-notebooks-that-explore-genetic-data)
 
 ## Check & extend the documentation
-![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg)
+![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg?longCache=true&style=flat)
 The *Personal Data Notebooks* have been released only 3 weeks ago. As a consequence
 the documentation is still rather new and not well tested. There are some ways you can
 test and extend the documentation:
@@ -56,10 +56,10 @@ the notebooks and see whether anything is missing. If things are missing or uncl
 about what is done and more or less how it works. Are these useful and correct? If not you can edit them in your own notebook instance, download the fixed notebook and make a pull request.
 
 ## Extend existing notebooks
-![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg) -
-![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg)
-![](https://img.shields.io/badge/language-Python-blue.svg)
-![](https://img.shields.io/badge/language-R-blue.svg)
+![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg?longCache=true&style=flat) -
+![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-Python-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-R-blue.svg?longCache=true&style=flat)
 
 Our [existing notebooks](https://github.com/OpenHumans/ohjh-example-notebooks) explore
 data from **Fitbit**, **Apple Healthkit** and **Twitter archives**. Some of these analyses are rather basic
@@ -78,11 +78,11 @@ please go ahead. Some potential ideas:
 ## Write notebooks for other data sources
 
 ### Writing notebook that explore Runkeeper
-![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg) -
-![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg)
-![](https://img.shields.io/badge/language-Python-blue.svg)
-![](https://img.shields.io/badge/language-R-blue.svg)
-![](https://img.shields.io/badge/language-Julia-blue.svg)
+![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg?longCache=true&style=flat) -
+![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-Python-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-R-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-Julia-blue.svg?longCache=true&style=flat)
 
 *Runkeeper* allows people to track their runs and workouts - along with GPS
 information. Right now around 200 people have connected their *Runkeeper*
@@ -95,11 +95,11 @@ Here are some ideas for notebooks that use Runkeeper data:
   - advanced: Use the GPS data to get weather information from some 3rd party API and try to correlate if the workout frequency etc. is tied to the weather
 
 ### Writing notebook that explore Moves
-![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg) -
-![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg)
-![](https://img.shields.io/badge/language-Python-blue.svg)
-![](https://img.shields.io/badge/language-R-blue.svg)
-![](https://img.shields.io/badge/language-Julia-blue.svg)
+![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg?longCache=true&style=flat) -
+![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-Python-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-R-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-Julia-blue.svg?longCache=true&style=flat)
 
 *Moves* is a passive GPS application for *iOS* and *Android* that records you movement history.
 Besides logging your location it will also try to classify your mode of transportation.
@@ -114,11 +114,11 @@ Some ideas for notebooks that use Moves data:
 - advanced: Use the GPS data to get weather information from some 3rd party API and try to correlate if the workout frequency etc. is tied to the weather
 
 ### Writing notebooks that explore genetic data
-![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg) -
-![](https://img.shields.io/badge/difficulty-hard-red.svg)
-![](https://img.shields.io/badge/language-Python-blue.svg)
-![](https://img.shields.io/badge/language-R-blue.svg)
-![](https://img.shields.io/badge/language-Julia-blue.svg)
+![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg?longCache=true&style=flat) -
+![](https://img.shields.io/badge/difficulty-hard-red.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-Python-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-R-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-Julia-blue.svg?longCache=true&style=flat)
 
 Open Humans hosts genetic data from a variety of sources:
 - [23andMe](https://www.openhumans.org/activity/23andme-upload/)

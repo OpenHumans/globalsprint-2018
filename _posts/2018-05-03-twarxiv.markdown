@@ -4,11 +4,11 @@ title:  "Work on the Open Humans project 'TwArχiv'"
 date:   2018-05-03 09:36:41 -0700
 categories: jekyll update
 ---
-![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg) -
-![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg)
-![](https://img.shields.io/badge/language-Python-blue.svg)
-![](https://img.shields.io/badge/language-JavaScript-blue.svg)
-![](https://img.shields.io/badge/other-Documentation-blue.svg)
+![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg?longCache=true&style=flat) -
+![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-Python-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-JavaScript-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/other-Documentation-blue.svg?longCache=true&style=flat)
 <br/>
 [TwArχiv](http://twarxiv.org/) is an Open Humans project that allows people to upload
 their full Twitter archive and analyses the user's metadata to check how their
@@ -28,8 +28,8 @@ where also some [issues can be found](https://github.com/gedankenstuecke/twitter
 - [Extend test suite](#extend-test-suite)
 
 ## Check documentation
-![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg)
-![](https://img.shields.io/badge/other-Documentation-blue.svg)
+![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/other-Documentation-blue.svg?longCache=true&style=flat)
 
 The project has been online since December 2017 but hasn't had many contributors so far.
 As such it would be great if someone could check that the documentation is up to date
@@ -37,8 +37,8 @@ and helpful. This goes both for the `README.md` that describes the setup for the
 environment as well as the texts on the website itself.
 
 ## Check grammar/spelling
-![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg)
-![](https://img.shields.io/badge/other-Documentation-blue.svg)
+![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/other-Documentation-blue.svg?longCache=true&style=flat)
 
 All contributions so far come from people for whom English is a foreign language.
 Due to that there's probably room for some copy-editing to smoothen things out.
@@ -47,8 +47,8 @@ This goes both for the `README.md` that describes the setup for the development
 environment as well as the texts on the website itself.
 
 ## Add support for predicting non-binary genders
-![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg)
-![](https://img.shields.io/badge/language-Python-blue.svg)
+![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-Python-blue.svg?longCache=true&style=flat)
 
 So far the TwArχiv predicts genders based on the first names of the users that
 are replied to/retweeted. Ideally it should be able to scan the public Twitter
@@ -58,16 +58,16 @@ For this the data import needs to be adjusted, along with an integration of the
 Twitter API itself to request these profiles.
 
 ## Adjust page so that expired Open Humans tokens lead to being logged out and request log in.
-![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg) - ![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg)
-![](https://img.shields.io/badge/language-Python-blue.svg)
+![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg?longCache=true&style=flat) - ![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-Python-blue.svg?longCache=true&style=flat)
 
 Right now it can happen that a user has a still-valid cookie to be logged in into the twitter analyser, but our stored access_token to interact with the open humans API is already expired. The only way for a user to resolve that situation at this point is to delete the cookie that stores the log-in to the twitter analyser. Which is far from ideal.
 
 Ideally all pages that can trigger interactions with the Open Humans API should make sure to first check on whether the access token needs to be refreshed and perform this operation if needed. This is especially relevant for the JS upload pages, as there we are performing the upload through the JS on the page, so a check needs to be performed before rendering the page.
 
 ## Extend test suite
-![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg)
-![](https://img.shields.io/badge/language-Python-blue.svg)
+![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-Python-blue.svg?longCache=true&style=flat)
 
 So far many parts of TwArχiv [are not covered by tests](https://codeclimate.com/github/gedankenstuecke/twitter-analyser).
 If someone is as much of a test fan as [Bastian](https://www.twitter.com/gedankenstuecke) they can get started with that.
