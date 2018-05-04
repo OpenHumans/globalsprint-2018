@@ -1,1 +1,32 @@
+---
+layout: post
+title:  "Work on the Open Humans project 'Open Humans Healthkit Integration'"
+date:   2018-05-03 09:36:41 -0700
+categories: jekyll update
+---
+![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg) -
+![](https://img.shields.io/badge/difficulty-advanced-red.svg)
+![](https://img.shields.io/badge/language-Swift-blue.svg)
+![](https://img.shields.io/badge/os-iOS-blue.svg)
+<br/>
+[Open Humans Healthkit Integration](https://www.openhumans.org/activity/open-humans-healthkit-integration/)
+is an Open Humans project that allows people to upload health and fitness data recorded on their iPhone or iPad.
 
+The integration is a Swift project that uses an old and not well maintained library called [HealthkitSampleGenerator](https://github.com/mseemann/healthkit-sample-generator). This library hasn't been updated for 3 years and won't even compile under modern Swift implementations.
+The [code and documentation lives on GitHub](https://github.com/blackbear/OpenHumansUpload).
+
+## Ways to contribute
+- [Update the project to Swift 4](#swift4)
+- [Replace the Healthkit Framework](#framework)
+
+## swift4
+![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg)
+![](https://img.shields.io/badge/language-Swift-blue.svg)
+
+The code is currently Swift3.0 compliant, and won't compile on a modern XCode version. It would be very helpful to have someone update the codebase to 4.0 (this is apart from the framework issue.)
+
+## framework
+![](https://img.shields.io/badge/difficulty-advanced-red.svg)
+![](https://img.shields.io/badge/language-Swift-blue.svg)
+
+The current HealthKit framework we're leveraging is old and unsupported. We either need to switch over to a new framework (which will require researching), or just call Healthkit directly. This isn't trivial, because we want to allow users to submit as much of their HealthKit data as possible (and that they permit), and each HealthKit measurement type is a special and unique flower in terms of accessing the data.
