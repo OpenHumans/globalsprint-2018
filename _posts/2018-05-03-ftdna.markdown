@@ -4,10 +4,10 @@ title:  "Work on the Open Humans project 'FamilyTreeDNA importer'"
 date:   2018-05-03 09:36:41 -0700
 categories: jekyll update
 ---
-![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg) -
-![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg)
-![](https://img.shields.io/badge/language-Python-blue.svg)
-![](https://img.shields.io/badge/other-Documentation-blue.svg)
+![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg?longCache=true&style=flat) -
+![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-Python-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/other-Documentation-blue.svg?longCache=true&style=flat)
 <br/>
 [FamilyTreeDNA integration](https://www.openhumans.org/activity/familytreedna-integration/)
 is an Open Humans project that allows people to upload
@@ -23,8 +23,8 @@ where also some [issues can be found](https://github.com/gedankenstuecke/ftdna-u
 - [Add support for further file formats](#add-support-for-further-file-formats)
 
 ## Check grammar/spelling
-![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg)
-![](https://img.shields.io/badge/other-Documentation-blue.svg)
+![](https://img.shields.io/badge/difficulty-easy-brightgreen.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/other-Documentation-blue.svg?longCache=true&style=flat)
 
 Most contributions so far come from people for whom English is a foreign language.
 Due to that there's probably room for some copy-editing to smoothen things out.
@@ -33,8 +33,8 @@ This goes both for the `README.md` that describes the setup for the development
 environment as well as the texts on the website itself.
 
 ## Add support for further file formats
-![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg)
-![](https://img.shields.io/badge/language-Python-blue.svg)
+![](https://img.shields.io/badge/difficulty-intermediate-yellow.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/language-Python-blue.svg?longCache=true&style=flat)
 
 Quoting a potential user here:
 
