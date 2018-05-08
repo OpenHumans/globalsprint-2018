@@ -21,7 +21,7 @@ but rather a collection of repositories that you can contribute to.
 
 Below you will find links to different projects that you can contribute to, along
 with some first overviews which skill sets are needed and our estimated
-level of difficulty.
+level of difficulty. Our GitHub issues can be found in the [`OpenHumans/ohjh-example-notebooks`](https://github.com/OpenHumans/ohjh-example-notebooks/issues?q=is%3Aissue+is%3Aopen+label%3Amozsprint), [`gedankenstuecke/twitter-analyser`](https://github.com/gedankenstuecke/twitter-analyser/issues?q=is%3Aissue+is%3Aopen+label%3Amozsprint) and [`gedankenstuecke/ftdna-upload`](https://github.com/gedankenstuecke/ftdna-upload/issues?q=is%3Aissue+is%3Aopen+label%3Amozsprint) repositories. 
 
 The best way to get in touch with us is by
 [joining our slack](http://slackin.openhumans.org/). Drop by in our `#globalsprint`
